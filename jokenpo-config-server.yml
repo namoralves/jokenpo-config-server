@@ -1,3 +1,8 @@
 delivery:
   maxOrders: 10
   minOrders: 1
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9091/eureka/
